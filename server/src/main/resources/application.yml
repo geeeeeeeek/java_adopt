@@ -12,7 +12,6 @@ spring:
     password: 4643830
     url: jdbc:mysql://localhost:3306/${DB_NAME}?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
     driver-class-name: com.mysql.cj.jdbc.Driver
-    type: com.alibaba.druid.pool.DruidDataSource
 
     druid:
       # 连接池的配置信息
@@ -57,27 +56,8 @@ spring:
         url-pattern: "/druid/*"
         #这里配true才能访问监控页面！
         enabled: true
-
-  servlet:
-    multipart:
-      max-request-size: 10MB  # 上传文件总的最大值 默认10MB
-      max-file-size: 1MB #单个文件最大值 默认1MB
-      location: ${BASE_LOCATION}\server\upload\tmp # 临时上传目录
-      enabled: true
-
-
-
-  # 静态资源路径
-  mvc:
-    static-path-pattern: /staticfiles/**  # 别名
-  web:
-    resources:
-#      static-locations: classpath:/static
-      static-locations: file:${BASE_LOCATION}\server\upload
-
-
-File:
-  uploadPath: ${BASE_LOCATION}\server\upload
+ 
+ 
 
 mybatis:
   configuration:
