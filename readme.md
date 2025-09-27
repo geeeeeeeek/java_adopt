@@ -18,14 +18,14 @@
 
 ### 演示地址
 
-前台地址：  http://adopt.gitapp.cn
+http://adopt.gitapp.cn
 
-后台地址： http://adopt.gitapp.cn/admin
 
-后台管理帐号：
 
-用户名：admin123
-密码：admin123
+### 视频讲解
+
+[https://youtu.be/ltv7ufytBHE](https://youtu.be/ltv7ufytBHE)
+
 
 ### 代码结构
 
@@ -70,9 +70,10 @@ npm run dev
 
 
 
-### 开发文档
+### 视频讲解
 
-[点击进入](doc.md)
+[https://youtu.be/ltv7ufytBHE](https://youtu.be/ltv7ufytBHE)
+
 
 ### 参考论文
 [点击进入](doc/java_adopt.docx)
@@ -80,5 +81,5 @@ npm run dev
 
 ### 付费咨询
 
-微信：Java2048
+微信：lengqin1024
 
